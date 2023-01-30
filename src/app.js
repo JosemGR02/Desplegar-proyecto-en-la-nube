@@ -68,7 +68,7 @@ const args = yargs
     })
     .argv;
 
-const PUERTO = args.puerto || config.SERVER.PUERTO
+const PUERTO = config.SERVER.PUERTO || args.puerto
 
 // const LOGGER = args.logger || DEV
 
