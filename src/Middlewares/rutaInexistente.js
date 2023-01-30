@@ -1,7 +1,7 @@
 
 
 import { Router } from 'express';
-import { logger } from '../../Configuracion/logger.js';
+import { logger } from '../Configuracion/logger.js';
 
 
 const ruta = Router();
