@@ -8,7 +8,7 @@ const ruta = Router();
 
 ruta.get('/', (solicitud, respuesta) => {
     const fecha = new Date().toLocaleDateString()
-    respuesta.send(`Servidor express iniciado en el PUERTO: (${PUERTO}) -~- FUNCA PIOLA :) -~- PID: (${process.pid}) -~- FECHA: (${fecha})`)
+    respuesta.send(`Servidor express iniciado en el PUERTO: (${PUERTO}) -~- ENTREGA DESAFIO: Desplegar nuestro proyecto en la nube :) -~- PID: (${process.pid}) -~- FECHA: (${fecha})`)
 })
 
 export { ruta as RutaServidor };
